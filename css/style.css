@@ -1,0 +1,43 @@
+body{
+    background: #E9ECEF;
+}
+.space{
+    display: inline-block;
+    padding: 0.3em;
+}
+.tools{
+    padding: .75rem 1.25rem;
+    background: #fff;
+}
+.tools form{
+    background: #E9ECEF;
+    height: max-content;
+    padding: 1em;
+}
+.tools .form-group {
+    margin-bottom: 0;
+    padding: 0.3em;
+}
+.tools .input-group-prepend{
+    background: #fff;
+
+}
+.tools .btn-outline-secondary{
+    border-color: black;
+}
+
+
+.tableShow{
+    padding: .75rem 1.25rem;
+    padding-top: 0;
+}
+.tableShow .toolTable{
+    padding: 1em 0;
+}
+.tableShow{
+    background: #fff;
+}
+.tools .form-group input{
+    font-size: 1em;
+    padding: 0 0.35em;
+}
