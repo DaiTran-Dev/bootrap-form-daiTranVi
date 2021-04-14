@@ -1,82 +1,76 @@
 body{
-     background:  #E9ECEF;
-}
-section{
-    margin: 1em 2em;
-}
-textarea:focus, input:focus{
-    outline: none !important;
-}
-.tools {
-    padding: 1em 2em;
-    background: #fff;
-}
-.title{
-    display: inline-block;
-    margin-bottom: 1em;
-    padding: 0em 1em;
-}
-.form-left,.form-center,.form-right{
-    margin-bottom: 0;
-}
-.tools form {
-    background: #E9ECEF;
-    padding: 1em 1em;
-}
-.tools div{
-    height: max-content;
-}
-.tableResult label,
-.tools .form-row label{
+    background:  #E9ECEF;
     font-size: 0.8em;
-    margin: 0;
+}
+.form-cal{
+    background: #E9ECEF;
+    
+}
+.box{
+    height: 200px;
+    background: #153D77;
+}
+.space{
+    padding: 0 0.5em;
+}
+.tools{
+    position: absolute;
+    top: 3%;
+    left: 1.4%;
+    width: 97.2%;
+}
+.tools .form-group{
+    margin-bottom: 0.5em;
+}
+.tools .col-md-8,
+.tools .col-md-1,
+.tools .col-md-10,
+.tools .col-md-2{
+    padding-left: 0;
+    padding-right: 0;
+}
+.tools .card-body>form{
+    padding: 1em 1em;
+    background:  #E9ECEF;
+    border-radius: 2px;
+}
+.card-header{
+    background: #fff;
+    border-bottom: 0;
 }
 .tableResult input.form-control,
 .tools input.form-control{
-    font-size: 0.8em;
+    font-size: 1em;
     padding: 0;
     height: max-content;
     border: 1px solid #d2d4d6;
     outline: none !important;
     border-radius: 0;
 }
-.tools .input-group{
-    height: max-content;
+.tools .form-group.form-inline>label{
+    justify-content: flex-start;
+    overflow:hidden;
 }
-.tools .btn-outline-secondary.dropdown-toggle{
-    font-size: 0.8em;
-    padding: 0em 0.55em;
-    border: 1px solid #a3a4a593;
+.tools .btn.btn-outline-secondary.dropdown-toggle{
+    padding: 0 0.4em;
+    font-size: 1em;
+    border-radius: 0;
 }
-.tools .form-left .input-group-prepend{
-    width: 30%;
-}
-.tools form .textBox{
-    border: 1px solid #000;
-}
-.tools .form-center .form-row.item .input-group-prepend{
-    width:27% ;
-}
-.tools .form-center .form-row.item:first-child .input-group-prepend{
-    width:50% ;
-}
-.tools .form-center .form-row.item:first-child .right:last-child{
-    margin-left: 0.8em;
-}
-.tools .form-row.item{
-    margin-bottom: 0.2em;
-}
+
 .tableResult{
+    margin-top: 7em;
     overflow: hidden;
     padding: 0 2em;
-    background: #fff;
 }
-.tableResult .tool-table{
-    margin: 1em 0;
+.tableResult .form-control{
+    margin: 0 0.5em;
+    
 }
-.tableResult .tool-table select.form-control:not([size]):not([multiple]){
+.tableResult select.form-control:not([size]):not([multiple]){
     height: max-content;
-    padding: 0;
+    padding: 0 0.5em;
+    border-radius: 0;
+    font-size: 1em;
 }
 .tableResult .content-table{
     font-size: 0.8em;
@@ -92,4 +86,3 @@ textarea:focus, input:focus{
 .content-table .table td{
     padding-left: 0;
 }
-
