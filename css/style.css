@@ -1,43 +1,95 @@
 body{
-    background: #E9ECEF;
+     background:  #E9ECEF;
 }
-.space{
+section{
+    margin: 1em 2em;
+}
+textarea:focus, input:focus{
+    outline: none !important;
+}
+.tools {
+    padding: 1em 2em;
+    background: #fff;
+}
+.title{
     display: inline-block;
-    padding: 0.3em;
+    margin-bottom: 1em;
+    padding: 0em 1em;
 }
-.tools{
-    padding: .75rem 1.25rem;
-    background: #fff;
-}
-.tools form{
-    background: #E9ECEF;
-    height: max-content;
-    padding: 1em;
-}
-.tools .form-group {
+.form-left,.form-center,.form-right{
     margin-bottom: 0;
-    padding: 0.3em;
 }
-.tools .input-group-prepend{
+.tools form {
+    background: #E9ECEF;
+    padding: 1em 1em;
+}
+.tools div{
+    height: max-content;
+}
+.tableResult label,
+.tools .form-row label{
+    font-size: 0.8em;
+    margin: 0;
+}
+.tableResult input.form-control,
+.tools input.form-control{
+    font-size: 0.8em;
+    padding: 0;
+    height: max-content;
+    border: 1px solid #d2d4d6;
+    outline: none !important;
+    border-radius: 0;
+}
+.tools .input-group{
+    height: max-content;
+}
+.tools .btn-outline-secondary.dropdown-toggle{
+    font-size: 0.8em;
+    padding: 0em 0.55em;
+    border: 1px solid #a3a4a593;
+}
+.tools .form-left .input-group-prepend{
+    width: 30%;
+}
+.tools form .textBox{
+    border: 1px solid #000;
+}
+.tools .form-center .form-row.item .input-group-prepend{
+    width:27% ;
+}
+.tools .form-center .form-row.item:first-child .input-group-prepend{
+    width:50% ;
+}
+.tools .form-center .form-row.item:first-child .right:last-child{
+    margin-left: 0.8em;
+}
+.tools .form-row.item{
+    margin-bottom: 0.2em;
+}
+.tableResult{
+    overflow: hidden;
+    padding: 0 2em;
     background: #fff;
+}
+.tableResult .tool-table{
+    margin: 1em 0;
+}
+.tableResult .tool-table select.form-control:not([size]):not([multiple]){
+    height: max-content;
+    padding: 0;
+}
+.tableResult .content-table{
+    font-size: 0.8em;
+    height: 500px;
+    overflow-y: scroll;
+}
+.content-table .table th {
+    padding: .25rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+    background: #C1E2FC;
+}
+.content-table .table td{
+    padding-left: 0;
+}
 
-}
-.tools .btn-outline-secondary{
-    border-color: black;
-}
-
-
-.tableShow{
-    padding: .75rem 1.25rem;
-    padding-top: 0;
-}
-.tableShow .toolTable{
-    padding: 1em 0;
-}
-.tableShow{
-    background: #fff;
-}
-.tools .form-group input{
-    font-size: 1em;
-    padding: 0 0.35em;
-}
